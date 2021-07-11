@@ -12,6 +12,6 @@
 
 <div align="center">
 
-<img alt="screengrab_demo" style="width: 450px; height: 400px" src="assets/homeImage.png"> </img>
+<img alt="screengrab_demo" src="assets/homeImage.png"> </img>
 
 </div>
