@@ -12,7 +12,7 @@
 
 <div align="center">
 
-Download the build for your platform from <a href="www.ribhuratnam.me">here</a>
+Download the build for your platform from <a href="https://www.ribhuratnam.me" target="_blank">here</a>
 - Open the App
 <img alt="screengrab_demo" src="assets/homeImage.png"> </img>
 - Select your Screen or Window
