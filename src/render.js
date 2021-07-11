@@ -4,14 +4,15 @@ const { dialog, Menu } = remote;
 
 const videoElement = document.querySelector('video');
 const canvas = document.querySelector('canvas');
-const anchor = document.querySelector('a');
-const footer = document.querySelector('footer');
+const anchor = document.getElementById('githubCorner');
+const footer = document.getElementById('ribhu');
 const context = canvas.getContext('2d');
 
 let widthOfImage;
 let heightOfImage;
 
 const screenshotBtn = document.getElementById('screenshotBtn');
+const cancelBtn = document.getElementById('cancelBtn');
 screenshotBtn.disabled = true;
 
 screenshotBtn.onclick = async e => {
@@ -80,11 +81,15 @@ async function selectSource(source) {
 }
 
 anchor.onclick = async e => {
-  let link = 'https://www.ribhuratnam.me'
+  let link = 'https://github.com/ribhuji/ScreenGrab'
   shell.openExternal(link);
 };
 
 footer.onclick = async e => {
   let link = 'https://www.ribhuratnam.me'
   shell.openExternal(link);
+};
+
+cancelBtn.onclick = async e => {
+  ipcRenderer.send('close-me');
 };

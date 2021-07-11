@@ -10,13 +10,14 @@ const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 800,
-    height: 428,
+    height: 440,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,
       enableRemoteModule: true,
     },
     resizable: false,
+    frame: false,
   });
 
   // and load the index.html of the app.
