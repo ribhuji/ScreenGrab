@@ -12,10 +12,12 @@
 
 <div align="center">
 
+Download the build for your platform from <a href="www.ribhuratnam.me">here</a>
+- Open the App
 <img alt="screengrab_demo" src="assets/homeImage.png"> </img>
-
+- Select your Screen or Window
 <img alt="screengrab_demo" src="assets/selectImage.png"> </img>
-
+- Click on Take Screenshot
 <img alt="screengrab_demo" src="assets/takeScreenshot.png"> </img>
 
 </div>
