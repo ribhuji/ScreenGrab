@@ -16,7 +16,7 @@
 
 <div align="center">
 
-Download the build for your platform from <a href="https://github.com/ribhuji/ScreenGrab/tree/main/builds" target="_blank">here</a>
+Download the build for your platform from <a href="https://drive.google.com/drive/folders/1i4_WWFB3QC3a0W9AAKfMBDUk0gRfmuYi" target="_blank">here</a>
 - Open the App
 <img alt="screengrab_demo" src="assets/homeImage.png"> </img>
 - Select your Screen or Window
