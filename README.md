@@ -1,3 +1,5 @@
+### Obsolete Now!
+
 <div align="center">
 
   #### Best Screenshot App for people with multiple Displays.
